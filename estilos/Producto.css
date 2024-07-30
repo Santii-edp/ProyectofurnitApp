@@ -4,7 +4,8 @@ body {
 }
 
 nav {
-    background-color: #190a37;
+    max-width: 2000pc;
+    background-color: #221b32;
     overflow: hidden;
     text-align: center;
     height: 4.2pc;
@@ -59,6 +60,7 @@ hr {
 div.producto{
     transform: translate(0pc,3pc);
     height: 550px;
+    width: 100%;
     background-color: #36313f;
     padding: 30px 30px;
     color: rgb(0, 0, 0);
@@ -109,7 +111,8 @@ div#Productos {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     padding:108px;
-    max-width: 660px;
+    
+
 }
 
 .product-title {
@@ -146,6 +149,18 @@ transform: translate(-9pc, -6.2pc);
 }
 
 .product-button {
+    width: 7pc;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    transform: translate(-17pc, 3pc);
+    background: linear-gradient(to bottom, #EF1C42, #9A2C81); 
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: background 0.3s ease;
+}
+product-button {
     background-color: #242424;
     color: white;
     border: none;
@@ -159,9 +174,7 @@ transform: translate(-9pc, -6.2pc);
     transition: background-color 0.3s ease;
 }
 
-.product-button:hover {
-    background-color: #218838;
-}
+
 hr.titulo-prod{
     transform: translate(-3.9pc, -7pc) ;
     color: #140e16;
